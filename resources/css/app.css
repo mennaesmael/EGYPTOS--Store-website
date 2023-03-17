@@ -1,0 +1,199 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    font-family: 'Outfit';
+}
+
+/* make nav bar css  */
+.logo{
+    position: absolute;
+   width: 171px;
+   left: calc(50% - 171px/2 - 451.5px);
+   top: 10.35%;
+   bottom: 96.69%;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 37px;
+   line-height: 28px;
+   text-transform: uppercase;
+   }
+   .nav{
+       /* Discover */
+   position: absolute;
+   width: 97px;
+   left: calc(50% - 97px/2 + 215.5px);
+   top: 10.59%;
+   bottom: 96.44%;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 25px;
+   line-height: 28px;
+   }
+   .nav2{
+        /* buy */
+       position: absolute;
+       width: 42px;
+       left: calc(50% - 42px/2 + 359px);
+       top: 10.59%;
+       bottom: 96.44%;
+       
+       font-style: normal;
+       font-weight: 400;
+       font-size: 25px;
+       line-height: 28px;
+   }
+   
+   .nav3{
+          /* contact */
+       position: absolute;
+       width: 90px;
+       left: calc(50% - 90px/2 + 499px);
+       top: 10.59%;
+       bottom: 96.44%;
+       
+       font-style: normal;
+       font-weight: 400;
+       font-size: 25px;
+       line-height: 28px;
+   }
+
+
+/* end nav bar css  */
+
+
+
+
+.main-h1{
+    position: absolute;
+    width: 545.31px;
+    height: 290.49px;
+    left: calc(50% - 545.31px/2 - 264.65px);
+    top: 254.19px;
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 100px;
+    text-transform: uppercase;
+}
+
+
+.ellipse1{
+    /* Ellipse 1 */
+
+
+position: absolute;
+width: 419.93px;
+height: 408.36px;
+left: calc(50% - 419.93px/2 + 277.89px);
+top: 188.31px;
+border-radius: 50%;
+background: #AAD9D9;
+box-shadow: 0px 4px 84px rgba(0, 0, 0, 0.25);
+}
+
+.png-hero1{
+    position: absolute;
+    width: 282px;
+    height: 480.26px;
+    left: calc(50% - 282px/2 + 244px);
+    top: 224.94px;
+    
+}
+
+/* start main button  */
+.herobutton{
+    /* Rectangle 20 */
+
+
+position: absolute;
+width: 223.93px;
+height: 61.35px;
+left: calc(50% - 223.93px/2 - 420.03px);
+top: 578.27px;
+
+background: #F8A930;
+border-radius: 40px;
+
+}
+
+.buttontext{
+   /* buy now */
+
+
+   font-family: 'Outfit';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 25px;
+   line-height: 28px;
+   /* or 110% */
+   
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+   
+   color: #FFFFFF;
+   
+}
+
+
+/* end main button  */
+
+
+
+/* start footer */
+.h1Footer{
+    /* egyptos */
+
+
+position: absolute;
+width: 171px;
+height: 47px;
+left: calc(50% - 171px/2 - 0.5px);
+top: 100%;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 700;
+font-size: 37px;
+line-height: 47px;
+/* identical to box height */
+
+text-align: center;
+text-transform: uppercase;
+}
+
+
+.insta{
+/* instagram (1) 1 */
+
+
+position: absolute;
+width: 50px;
+height: 50px;
+left: calc(50% - 70px/2 - 183px);
+top:110%;
+margin-bottom: 10%;
+}
+.facebook{
+   
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: calc(50% - 70px/2);
+    top:110%;
+    margin-bottom: 10%;
+}
+.twitter{
+    position: absolute;
+width: 50px;
+height: 50px;
+left: calc(50% - 70px/2 + 183px);
+top:110%;
+margin-bottom: 10%;
+}
+
+/* end footer */
